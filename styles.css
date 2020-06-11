@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*menu*/
+.contenitore-menu {
+
+  color:black;
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  width:100%;
+  height: 80px;
+position:relative;
+bottom:20px;
+  /* border: 2px solid green;*/
+}
+/*
+.menu{
+ border: 2px solid red;
+ display: flex;
+ justify-content: space-between;
+ width: 90%;
+}*/
+
+.link {
+  width: 40%;
+/*  border: 1px solid #ff13a7;  /* For debugging */
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  letter-spacing: 3px;
+  position:relative;
+  right:50px;
+
+}
+.logo{
+  position:relative;
+  bottom:30px;
+  right:40px;
+}
+.social{
+  position:relative;
+  top:10px;
+}
+.vocemenu{
+  list-style-type: none;
+}
+/*titoli*/
+.container{
+  background-color:#ff13a7 ;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  width:100%;
+  height: 150px;
+}
+.titoli{
+  color:#ff13a7;
+  margin-top: 20px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  width:100%;
+  height: 50px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  position:relative;
+  margin-bottom: 20px;
+
+}
+.spazio{
+  width: 95%;
+  height:1px;
+  background-color: #ff13a7;
+  margin-left: 2,5%;
+  margin-right: 2,5%;
+  position:relative;
+  left:20px;
+}
+
+/*presentazione*/
+.contenitore-generico{
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+  width:100%;
+}
+.ciao{
+  letter-spacing: 3px;
+  color: black;
+  margin-bottom: 10px;
+  font-style: italic;
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+.presentazione{
+  font-size: 20px;
+  line-height: 1.4;
+  position:relative;
+  left:30px;
+  padding:20px;
+}
+span{
+  background-color:#ff13a7;
+}
+
+/*servizi*/
+.contenitore-servizi{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+.mieiservizi{
+border: 2px groove #ff13a7;
+width:25%;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+img{
+  position:relative;
+  left:20px;
+}
+.servizi{
+  position:relative;
+  left:50px;
+  bottom:30px;
+}
+.paragservizi{
+  font-size: 20px;
+  line-height: 1.4;
+  padding:10px;
+}
+.mary{
+  position:relative;
+  border-radius: 50% ;
+}
+
+}
+h3{
+  margin-top: 15px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-style: normal;
+  position:relative;
+  left:40%;
+  right:40%;
+}
+.lavori {
+  display: flex;
+  width:100%;
+/*  border:3px solid green; */
+  flex-direction: column;
+  height: 100%;
+}
+.gruppo{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.uno{
+  margin-top: 10px;
+}
+.bordo{
+  border: 3px solid black;
+}
+.contatti{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   }
+#contact{
+   letter-spacing: 2px;
+   font-size: 15px;
+   font-style: normal;
+   text-align: center;
+   margin-bottom: 10px;
+     }
+.contatti-form{
+  background-color: #3F3B3F;
+ border: 1px solid #ff13a7;
+ border-radius: 3px;
+color:#ff13a7;
+ width: 80%;
+ padding: 50px;
+ margin: 0 0 40px 0;
+}
+.form-row{
+  margin-bottom: 15px;
+}
+a{
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color:#ff13a7 ;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
